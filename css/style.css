@@ -131,6 +131,9 @@ body {
 /*
  *Testimonial Section Style Start
  */
+.testimonial {
+	padding-bottom: 100px;
+}
 .testimonial-text {
 	text-align: center;
 	padding-bottom: 50px;
@@ -163,4 +166,46 @@ body {
 }
 /*
  *Testimonial Section Style end
+ */
+/*
+ *Newsletter Section Style Start
+ */
+.newsletter-text {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.newsletter-text h2 {
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.newsletter-email {
+	background-color: #fff4d6;
+	text-align: center;
+	margin: 70px 185px;
+	display: flex;
+	justify-content: center;
+	padding: 80px 185px;
+}
+.newsletter-email input {
+	/* margin-right: 0; */
+	border: none;
+	background-color: #ddd;
+	width: 270px;
+	height: 50px;
+	outline: none;
+	padding-left: 10px;
+}
+.email-btn {
+	width: 100px;
+	height: 26px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #ff5959;
+	padding: 12px 30px;
+	border-radius: 0 6px 6px 0;
+	display: inline-block;
+}
+/*
+ *Newsletter Section Style end
  */
