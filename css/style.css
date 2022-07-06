@@ -97,6 +97,7 @@ body {
 .donate-plan-items {
 	padding: 50px 100px 150px 100px;
 	display: flex;
+	justify-content: center;
 }
 .single-plan-item {
 	width: 360px;
@@ -208,4 +209,24 @@ body {
 }
 /*
  *Newsletter Section Style end
+ */
+/*
+ *Footer Section Style Start
+ */
+.footer {
+	background-color: #0b0d17;
+	padding: 60px;
+	text-align: center;
+}
+.footer h2 {
+	font-size: 36px;
+	color: #ff5959;
+}
+.footer p {
+	font-size: 16px;
+	color: #fff;
+	margin-top: 10px;
+}
+/*
+ *Footer Section Style end
  */
