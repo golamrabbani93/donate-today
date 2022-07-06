@@ -54,7 +54,7 @@ body {
 .donate-text h2 {
 	font-size: 45px;
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .donate-taka {
 	display: flex;
@@ -64,10 +64,10 @@ body {
 .taka {
 	margin-left: 15px;
 	padding: 35px 25px;
-	background-color: #cfcccc;
+	background-color: #f9f7f7;
 }
 #bg-200 {
-	background-color: #cf7d7da6;
+	background-color: #ffeeee;
 	border: 2px solid #ff5959;
 }
 .donate-input {
@@ -90,4 +90,41 @@ body {
 }
 /*
  *Donate Section Style end
+ */
+/*
+ *Donate-plan Section Style Start
+ */
+.donate-plan-items {
+	padding: 50px 100px 150px 100px;
+	display: flex;
+}
+.single-plan-item {
+	width: 360px;
+	height: 350px;
+	background-color: #ddd;
+	padding: 15px 15px 0 15px;
+	margin: 0 15px;
+}
+.single-plan-item img {
+	margin: 60px 0 15px 0;
+}
+.single-plan-item h4 {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 15px 0;
+}
+.single-plan-item p {
+	font-size: 17px;
+}
+#food {
+	background-color: #edf5f6;
+}
+#shelter {
+	background-color: #ffeeee;
+}
+#education {
+	background-color: #fff4d6;
+}
+/*
+ *Donate-plan Section Style end
  */
