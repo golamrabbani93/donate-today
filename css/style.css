@@ -128,3 +128,39 @@ body {
 /*
  *Donate-plan Section Style end
  */
+/*
+ *Testimonial Section Style Start
+ */
+.testimonial-text {
+	text-align: center;
+	padding-bottom: 50px;
+}
+.testimonial-text h2 {
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.testimonial-qoute .qoute {
+	font-size: 50px;
+	text-align: center;
+	padding: 0 70px 50px 70px;
+}
+.qoute-person {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.qoute-person img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.qoute-person h4 {
+	font-size: 18px;
+	color: #ff5959;
+	font-weight: 700;
+}
+/*
+ *Testimonial Section Style end
+ */
